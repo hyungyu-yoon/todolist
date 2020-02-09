@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-image: url("https://source.unsplash.com/featured/?landscape");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  #app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+  }
+  
+  .js-weather-container {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .js-clock {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  
+  .js-clock-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .js-name {
+    margin: 0;
+  }
+  .js-username-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .js-input-name {
+    width: 200;
+  }
+  
+  .js-todos-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  
+  .js-form-todos {
+    text-align: center;
+  }
+  
+  .js-todos-list {
+    height: 190px;
+    overflow-y: scroll;
+    /* -ms-overflow-style: none; */
+  }
+  
+  .js-todos-list::-webkit-scrollbar {
+    display: none !important;
+  }
+  
+  .js-input-todos {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+  }
+  
