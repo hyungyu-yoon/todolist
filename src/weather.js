@@ -13,7 +13,6 @@ function saveCoords(coords) {
 }
 
 function handleGeoSuccess(position) {
-  console.log(position);
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
   const coords = {
@@ -43,7 +42,6 @@ function getWhether(coords) {
       return response.json();
     })
     .then(function(json) {
-      console.log(json);
       city.innerText = `${json.name} 날씨는?`;
       temp.innerText = `현재 온도 : ${json.main.temp}`;
       weather.innerText = `현재 날씨 : ${json.weather[0].main}`;
